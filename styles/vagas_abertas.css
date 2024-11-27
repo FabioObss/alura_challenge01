@@ -1,0 +1,48 @@
+.vagas-abertas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vagas-abertas__titulo {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--cor-titulo);
+    padding: 2rem 3rem 2rem 0;
+    width: 50%;
+}
+
+.card__vagas {
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    width: 50%;
+}
+
+.card__vagas__titulo {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.card__vagas__resumo {
+    display: flex;
+    gap: 1.5rem;
+    color: var(--cor-texto)
+}
+
+@media screen and (max-width:428px) {
+
+    .vagas-abertas__titulo {
+        width: 65vw;
+    }
+
+    .card__vagas {
+        width: 65vw;
+    }
+
+    .card__vagas__resumo {
+        font-size: 14px;
+    }
+}

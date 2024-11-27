@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url(./header.css);
+@import url(./sobre.css);
+@import url(./vagas.css);
+@import url(./vagas_abertas.css);
+@import url(./depoimentos.css);
+@import url(./footer.css);
+
+:root {
+    --fonte-principal: "Inter", sans-serif;
+    --cor-titulo: #101828;
+    --cor-texto: #667085;
+    --cor-texto-destaque: #8E2424;
+    --cor-disclaimer: #98A2B3;
+    --cor-texto-branco: #ffffff;
+    --cor-borda: #D0D5DD;
+}
+
+
+
+body {
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
